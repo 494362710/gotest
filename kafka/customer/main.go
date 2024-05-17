@@ -9,7 +9,7 @@ import (
 // kafka consumer
 
 func main() {
-	consumer, err := sarama.NewConsumer([]string{"172.17.129.240:9092"}, nil)
+	consumer, err := sarama.NewConsumer([]string{"47.103.158.200:9092"}, nil)
 	if err != nil {
 		fmt.Printf("fail to start consumer, err:%v\n", err)
 		return
